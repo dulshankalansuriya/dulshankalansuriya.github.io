@@ -56,18 +56,18 @@ window.portfolioProjects = [
   {
     id: 'spray-chamber', number: '04', title: 'Industrial spray chamber documentation',
     subtitle: 'Assembly organisation · Drawings · BOM', category: 'documentation', status: 'Documentation completed',
-    image: 'spray-model', imageAlt: 'SolidWorks model of an industrial spray chamber assembly',
-    summary: 'A manufacturing documentation package connecting main assemblies, sub-assemblies and individual parts through drawings, part numbering and bills of materials.',
+    image: 'spray-assembly-sheet.png', imageAlt: 'Isometric SolidWorks drawing of the spray chamber assembly',
+    summary: 'A SolidWorks documentation package for three main assemblies, their functional sub-assemblies and individual parts.',
     tools: ['SolidWorks', 'Exploded views', 'BOM', 'Part numbering'],
     context: 'NERDC · Engineering documentation assignment',
     objective: 'Make a large machine assembly easier to identify, manufacture, assemble and maintain through structured engineering documentation.',
     role: 'I organised the assembly hierarchy and prepared part, assembly and exploded-view drawings with supporting BOMs and part numbers.',
-    contributions: ['Separated the main assembly into functional sub-assemblies and individual components.', 'Assigned component names and unique part numbers.', 'Prepared detailed part drawings and assembly drawings.', 'Created exploded views and bills of materials with material and quantity information.', 'Reviewed consistency between models, drawings and BOMs with the supervising engineer.'],
-    process: 'Main assembly → functional sub-assemblies → individual parts → numbered drawings → assembly views and BOM verification.',
-    outcome: 'The report records a completed documentation package containing the assembly hierarchy, component drawings, exploded views, BOMs and standardised part numbering.',
+    contributions: ['Mapped three main assemblies into functional sub-assemblies and individual parts.', 'Assigned unique part numbers and descriptive names so components could be traced across drawings.', 'Prepared exploded drawings with numbered callouts and a Bill of Materials (BOM) recording item numbers, part names and quantities.', 'Created 2D detail drawings for selected parts with basic dimensions and manufacturing information.'],
+    process: 'I first studied how the components fitted together and grouped related parts by function. I then used the assembly hierarchy to organise the drawing set and checked that the exploded-view callouts matched the BOM entries.',
+    outcome: 'The completed package included assembly drawings, exploded views, BOMs and selected part drawings. I strengthened my skills in reading assembly drawings, identifying components, dimensioning parts and communicating how a machine fits together.',
     challenge: 'Similar components and a large part count required careful identification and continuous drawing/BOM checks.',
     sources: 'Industrial Training Report, printed pages 52–55; Industrial Training Evaluation, slides 15–17.',
-    gallery: [['spray-model','Overall spray chamber CAD assembly.'], ['spray-exploded','Exploded sub-assembly drawing.'], ['spray-drawing','Main assembly documentation.'], ['spray-part','Individual manufactured-part drawing.']]
+    gallery: [['spray-assembly-sheet.png','Isometric assembly drawing of the spray chamber and supporting equipment.'], ['spray-exploded-sheet.png','Exploded sub-assembly drawing with numbered callouts and a parts table.'], ['spray-exploded-print.png','Printed exploded drawing showing the chamber panels and component references.'], ['spray-part','2D detail drawing for a selected component.']]
   },
   {
     id: 'rain-test-base', number: '05', title: 'Artificial rain-test chamber base',
