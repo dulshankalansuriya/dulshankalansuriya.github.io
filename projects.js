@@ -1,4 +1,4 @@
-window.portfolioImage = name => name.endsWith('.png') ? name : name.startsWith('motor-cad-')
+window.portfolioImage = name => name.endsWith('.png') ? name : /^(motor|rain)-cad-/.test(name)
   ? `${name}.svg`
   : `${name}.webp?v=wrapping-cad-20261106`;
 
@@ -72,7 +72,7 @@ window.portfolioProjects = [
   {
     id: 'rain-test-base', number: '05', title: 'Artificial rain-test chamber base',
     subtitle: 'Weldments · Structural measurement', category: 'cad', status: 'Industrial training project',
-    image: 'rain-model', imageAlt: 'Structural frame model for an artificial rain testing chamber',
+    image: 'rain-cad-iso', imageAlt: 'Structural frame model for an artificial rain testing chamber',
     summary: 'A measured structural frame model and fabrication drawings for a chamber used in electric-vehicle water-resistance testing.',
     tools: ['SolidWorks Weldments', 'Measurement', 'Fabrication drawings'],
     context: 'NERDC · EV testing facility',
@@ -82,7 +82,7 @@ window.portfolioProjects = [
     process: 'Site measurement and frame requirements → weldment modelling → drawing preparation → engineering review → workshop fabrication.',
     outcome: 'The reviewed CAD model and drawings were used as fabrication references. Workshop technicians fabricated the chamber structure.',
     sources: 'Industrial Training Report, printed pages 37–38; final diary: Daily_Dairy_uovt dulshan.docx, early training entries.',
-    gallery: [['rain-model','SolidWorks structural frame model.'], ['rain-drawing','Fabrication drawing of the base structure.'], ['rain-built','Installed base structure documented in the report.']]
+    gallery: [['rain-cad-iso','Isometric SolidWorks view of the welded base frame.'], ['rain-cad-top','Plan view showing the frame and cross-member layout.'], ['rain-cad-edge','Edge view showing the shallow frame profile and bracing.'], ['rain-drawing','Fabrication drawing of the base structure.'], ['rain-installed.png','Installed base frame inside the rain-test chamber.']]
   },
   {
     id: 'helical-gear', number: '06', title: 'Helical gear prototype manufacturing',
