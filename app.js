@@ -2,7 +2,7 @@
   'use strict';
   const projects = window.portfolioProjects || [];
   const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const asset = name => `${name}.webp?v=wrapping-cad-20261106`;
+  const asset = window.portfolioImage;
   const grid = document.getElementById('project-grid');
   const projectDialog = document.getElementById('project-dialog');
   const imageDialog = document.getElementById('image-dialog');

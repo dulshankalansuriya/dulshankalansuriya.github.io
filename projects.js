@@ -1,3 +1,7 @@
+window.portfolioImage = name => name.startsWith('motor-cad-')
+  ? `${name}.svg`
+  : `${name}.webp?v=wrapping-cad-20261106`;
+
 window.portfolioProjects = [
   {
     id: 'rubber-wrapping', number: '01', title: 'Automated rubber wrapping workstation',
@@ -21,7 +25,7 @@ window.portfolioProjects = [
   {
     id: 'motor-adjusting-unit', number: '02', title: 'E-bike motor adjusting unit',
     subtitle: 'Mechanical design · CAD/CAM · CNC manufacturing', category: 'manufacturing', status: 'Industrial training project',
-    image: 'motor-model', imageAlt: 'CAD assembly of an adjustable motor mounting unit for an e-bike torque test machine',
+    image: 'motor-cad-isometric', imageAlt: 'CAD assembly of an adjustable motor mounting unit for an e-bike torque test machine',
     summary: 'An adjustable mounting mechanism for positioning different e-bike motors during torque testing, developed through CAD, CAM and workshop manufacture.',
     tools: ['SolidWorks', 'SolidCAM', 'CNC milling', 'Dimensional inspection'],
     context: 'NERDC · Technology Incubator · Work under project-engineer supervision',
@@ -32,7 +36,7 @@ window.portfolioProjects = [
     outcome: 'The training report records the unit as designed, machined, fabricated and assembled, with adjustment and alignment checked as part of the ongoing test-machine project.',
     challenge: 'Accommodating different motor sizes required design revisions. Workpiece alignment and datum selection were important to control dimensional deviations.',
     sources: 'Industrial Training Report, printed pages 47–51.',
-    gallery: [['motor-model','SolidWorks assembly of the motor adjusting unit.'], ['motor-exploded','Exploded view showing the mounting components.'], ['motor-cam','CAD/CAM work on a motor-unit component.'], ['motor-plate','Slotted component model prepared for manufacturing.'], ['motor-machined','Manufactured component after machining.'], ['motor-built','Fabricated motor adjusting structure.']]
+    gallery: [['motor-cad-isometric','Isometric view of the motor adjusting unit.'], ['motor-cad-front','Front view of the motor adjusting unit.'], ['motor-cad-right','Right-side view of the motor adjusting unit.'], ['motor-cad-top','Top view of the motor adjusting unit.'], ['motor-exploded','Exploded view showing the mounting components.'], ['motor-cam','CAD/CAM work on a motor-unit component.'], ['motor-plate','Slotted component model prepared for manufacturing.'], ['motor-machined','Manufactured component after machining.'], ['motor-built','Fabricated motor adjusting structure.']]
   },
   {
     id: 'three-wheeler-chassis', number: '03', title: 'Electric three-wheeler chassis',
