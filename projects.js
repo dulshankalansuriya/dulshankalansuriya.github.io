@@ -1,4 +1,4 @@
-window.portfolioImage = name => name.startsWith('motor-cad-')
+window.portfolioImage = name => name.endsWith('.png') ? name : name.startsWith('motor-cad-')
   ? `${name}.svg`
   : `${name}.webp?v=wrapping-cad-20261106`;
 
@@ -36,7 +36,7 @@ window.portfolioProjects = [
     outcome: 'The training report records the unit as designed, machined, fabricated and assembled, with adjustment and alignment checked as part of the ongoing test-machine project.',
     challenge: 'Accommodating different motor sizes required design revisions. Workpiece alignment and datum selection were important to control dimensional deviations.',
     sources: 'Industrial Training Report, printed pages 47–51.',
-    gallery: [['motor-cad-isometric','Isometric view of the motor adjusting unit.'], ['motor-cad-front','Front view of the motor adjusting unit.'], ['motor-cad-right','Right-side view of the motor adjusting unit.'], ['motor-cad-top','Top view of the motor adjusting unit.'], ['motor-exploded','Exploded view showing the mounting components.'], ['motor-cam','CAD/CAM work on a motor-unit component.'], ['motor-plate','Slotted component model prepared for manufacturing.'], ['motor-machined','Manufactured component after machining.'], ['motor-built','Fabricated motor adjusting structure.']]
+    gallery: [['motor-cad-isometric','Isometric view of the motor adjusting unit.'], ['motor-cad-front','Front view of the motor adjusting unit.'], ['motor-cad-right','Right-side view of the motor adjusting unit.'], ['motor-cad-top','Top view of the motor adjusting unit.'], ['motor-exploded-cad.png','Exploded assembly view showing the frame, mounting supports, guide rods and hardware.'], ['motor-cam','CAD/CAM work on a motor-unit component.'], ['motor-plate','Slotted component model prepared for manufacturing.'], ['motor-machined','Manufactured component after machining.'], ['motor-built','Fabricated motor adjusting structure.']]
   },
   {
     id: 'three-wheeler-chassis', number: '03', title: 'Electric three-wheeler chassis',
