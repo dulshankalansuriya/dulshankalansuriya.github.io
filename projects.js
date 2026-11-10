@@ -41,17 +41,17 @@ window.portfolioProjects = [
   {
     id: 'three-wheeler-chassis', number: '03', title: 'Electric three-wheeler chassis',
     subtitle: 'Reverse engineering · Mechanical CAD', category: 'cad', status: 'Industrial training project',
-    image: 'chassis-model', imageAlt: 'Three-dimensional SolidWorks chassis model',
+    image: 'chassis-assembly.png', imageAlt: 'Three-dimensional SolidWorks chassis model',
     summary: 'Physical chassis measurements translated into a SolidWorks model and drawings to support an electric three-wheeler prototype.',
     tools: ['SolidWorks', 'Reverse engineering', 'Engineering drawings'],
     context: 'NERDC · Electric vehicle development',
     objective: 'Create a reliable digital reference from an existing petrol three-wheeler chassis to support electric-vehicle chassis development.',
     role: 'I carried out dimensional measurement, CAD modelling and drawing preparation with engineering-team review.',
-    contributions: ['Measured structural members and mounting locations using a measuring tape, vernier caliper and steel ruler.', 'Recorded and checked dimensional data before modelling.', 'Developed the SolidWorks chassis model and prepared 2D engineering drawings.', 'Supported the design documentation used for prototype development.'],
-    process: 'Physical inspection → measurement and verification → structural CAD model → engineering drawings → design review → fabrication reference.',
-    outcome: 'The report records completion of the CAD model and drawings. The prototype chassis was fabricated by engineers and workshop technicians using the reviewed design as a reference.',
+    contributions: ['Measured the existing petrol chassis with a tape measure and vernier caliper, recording overall length, width, wheelbase and mounting locations.', 'Built the chassis layout with dimensioned 2D sketches, sketch relations, and reference planes and axes.', 'Used 3D sketches to define tube paths and SolidWorks Weldments to create the frame. Used Trim/Extend to fit the structural members at their joints.', 'Assembled the brackets, mounts, springs and supports using coincident, concentric and distance mates. Prepared an exploded view and a multi-view drawing.'],
+    process: 'I checked the recorded dimensions before modelling, then organised the parts and weldment features in the SolidWorks FeatureManager tree. I exported the design as SolidWorks part and assembly files (SLDPRT and SLDASM) and as STEP for engineers working in other CAD software.',
+    outcome: 'The reviewed model and drawings served as a reference for the fabricated prototype frame. The electric conversion is ongoing. Next steps include refining the chassis, integrating the electric powertrain and developing the motor and battery mounts.',
     sources: 'Industrial Training Report, printed pages 41–43; Industrial Training Evaluation, slides 11–12.',
-    gallery: [['chassis-model','Isometric chassis CAD model.'], ['chassis-drawing','Dimensioned chassis drawing.'], ['chassis-exploded','Exploded view of the chassis assembly.'], ['chassis-built','Fabricated chassis documented during training.']]
+    gallery: [['chassis-assembly.png','Isometric view of the chassis with the rear suspension fitted.'], ['chassis-exploded-view.png','Exploded assembly showing the frame, suspension and mounting parts.'], ['chassis-view-sheet.png','SolidWorks drawing sheet with front, end, plan and isometric views.'], ['chassis-built','Fabricated chassis documented during training.']]
   },
   {
     id: 'spray-chamber', number: '04', title: 'Industrial spray chamber documentation',
