@@ -15,7 +15,7 @@ window.portfolioProjects = [
     parameterNote: 'Preliminary design inputs and targets from the progress report. They are not validated machine performance or final manufacturing specifications.',
     credit: 'Team: S.A.U.S.L. Bandara, A.G.S.D. Kalansuriya and D.M.P.E. Dissanayake. Supervisor: Prof. Ravindra L.W. Koggalage.',
     sources: 'Project proposal and revised Progress Report 1 (prograss report man 09 (1).pdf), October 2026; owner-supplied contribution summary.',
-    gallery: [['wrapping-machine','Isometric CAD view of the proposed workstation.'], ['wrapping-front','Front view from the progress report.'], ['wrapping-side','Side view of the conveyor and supporting structure.'], ['wrapping-plan','Top view of the proposed machine layout.'], ['track-links','Reference harvesting-machine track links.'], ['manual-wrapping','Existing manual wrapping operation documented in the project report.']]
+    gallery: [['wrapping-machine','Isometric CAD view of the proposed workstation.'], ['wrapping-front','Front CAD view of the workstation assembly.'], ['wrapping-side','Side view of the conveyor and supporting structure.'], ['wrapping-plan','Top view of the proposed machine layout.'], ['track-links','Reference harvesting-machine track links.'], ['manual-wrapping','Existing manual wrapping operation documented in the project report.']]
   },
   {
     id: 'motor-adjusting-unit', number: '02', title: 'E-bike motor adjusting unit',
