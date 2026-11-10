@@ -103,17 +103,17 @@ window.portfolioProjects = [
   {
     id: 'bottle-mould', number: '07', title: 'Bottle mould profile analysis',
     subtitle: 'Metrology · Reverse engineering', category: 'cad', status: 'Industrial training project',
-    image: 'mould-inspection', imageAlt: 'Dimensional inspection using a digital profile projector',
-    summary: 'Profile measurement and CAD reconstruction to investigate bottle dimensional defects when the coordinate measuring machine was unavailable.',
+    image: 'mould-projector.png', imageAlt: 'Dimensional inspection using a digital profile projector',
+    summary: 'Optical measurement of cracked bottle samples and SolidWorks reconstruction to assess a deformed mould cavity.',
     tools: ['Digital profile projector', 'SolidWorks', 'Dimensional inspection'],
     context: 'NERDC · Mould evaluation support',
-    objective: 'Reconstruct the bottle profile and support mould-cavity evaluation and repair following dimensional defects.',
+    objective: 'Reconstruct the intended bottle profile to assess the deformed mould cavity and estimate the volume of repair material required.',
     role: 'I assisted with mould inspection and cleaning, profile measurement, CAD reconstruction and volume-analysis support.',
-    contributions: ['Inspected and cleaned the damaged mould.', 'Measured sample profiles using a digital profile projector.', 'Repeated measurements to address sample and sectioning variability.', 'Created a SolidWorks model to support comparison and mould evaluation.'],
-    process: 'Visual inspection → sample preparation → optical profile coordinates → CAD reconstruction → comparison with the reference model.',
-    outcome: 'The measurement and CAD work supported the engineering team’s mould evaluation and repair. No numerical measurement-accuracy claim is made.',
+    contributions: ['Inspected and cleaned the mould, then sorted cracked bottle samples into two groups.', 'Used a digital profile projector to record coordinates from the prepared bottle sections.', 'Compared coordinates across samples to check profile consistency.', 'Reconstructed the profile in SolidWorks and used a solid block to model the cavity as a cut.'],
+    process: 'The coordinate measuring machine (CMM) was unavailable during maintenance, so the team used a digital profile projector to measure the prepared bottle sections. The measured coordinates defined the profile in SolidWorks. Subtracting the modelled shape from a solid block created a cavity model for assessing fill volume.',
+    outcome: 'The cavity model provided a basis for estimating the repair fill volume. I learned to measure profiles with a digital profile projector and translate the coordinates into a SolidWorks model.',
     challenge: 'Cutting a representative bottle section and comparing different samples introduced measurement variability; repeated measurements were used.',
     sources: 'Industrial Training Report, printed pages 39–40; Industrial Training Evaluation, slides 13–14.',
-    gallery: [['mould-inspection','Measurement using the digital profile projector.'], ['mould-model','SolidWorks reconstruction from profile measurements.'], ['mould-defect','Defective bottle sample investigated during training.']]
+    gallery: [['mould-projector.png','Measuring bottle sections with the digital profile projector.'], ['mould-cavity.png','Interior of the bottle mould cavity inspected during the investigation.'], ['mould-bottle.png','Cracked bottle sample used for profile measurement.'], ['mould-reconstruction.png','Bottle profile reconstructed from measured coordinates in SolidWorks.']]
   }
 ];
