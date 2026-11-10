@@ -87,18 +87,18 @@ window.portfolioProjects = [
   {
     id: 'helical-gear', number: '06', title: 'Helical gear prototype manufacturing',
     subtitle: 'Machine elements · Turning · Gear milling', category: 'manufacturing', status: 'Prototype manufactured',
-    image: 'gear-finished', imageAlt: 'Aluminium helical gear manufactured during industrial training',
+    image: 'gear-prototype-new.png', imageAlt: 'Aluminium helical gear manufactured during industrial training',
     summary: 'An aluminium gear prototype for a reduction gearbox, involving blank preparation, gear calculations, milling setup and dimensional inspection.',
     tools: ['Centre lathe', 'Gear milling', 'Gear calculations', 'Inspection'],
     context: 'NERDC · Supervised workshop manufacturing',
     objective: 'Manufacture a lower-cost aluminium prototype to check the gear design and manufacturing approach before final-material production.',
     role: 'I participated in gear-blank machining, gear calculations, setup and inspection under the machine operator’s supervision.',
-    contributions: ['Prepared and turned the gear blank to the drawing dimensions.', 'Applied module, tooth-count and helix-angle information to the setup calculations.', 'Supported cutter/arbor alignment and supervised tooth machining.', 'Investigated a tooth-width error, corrected the setup with the workshop team and repeated the cutting operation.'],
-    process: 'Blank preparation → turning → geometry and indexing calculations → milling setup → tooth cutting → dimensional checks and setup correction.',
-    outcome: 'The training report records successful manufacture after correcting the milling setup error. This was a prototype, not a certified production gear.',
+    contributions: ['Inspected the aluminium blank for visible defects, marked its centre and centre-drilled it before mounting it on the lathe.', 'Turned concentric 76 mm and 60 mm diameters with a 10 mm step, checking dimensions with a vernier caliper and taking light finishing cuts.', 'Calculated pitch diameter, outside diameter, helix lead and indexing ratio using the drawing specifications and checked the values with the operator.', 'Helped set up the milling head and cutter arbor, align and secure the blank, and check tooth width after cutting.'],
+    process: 'Over three days, I followed the engineering drawing under the machine operator’s guidance. On the lathe I checked clamping, tool height, speed and feed before turning and finishing the stepped blank. On the mill, the team used the verified gear geometry and indexing calculations to set up and cut the helical teeth.',
+    outcome: 'The first milling pass produced teeth narrower than specified. The operator attributed the error to a milling machine fault, and the gear was recut under supervision. I gained practical experience in lathe finishing, gear milling setup and diagnosing machining errors.',
     parameters: [['Material', 'Aluminium'], ['Module', '2.5'], ['Teeth', '24'], ['Helix angle', '25°'], ['Pressure angle', '20°'], ['Method', 'Gear milling']],
     sources: 'Industrial Training Report, printed pages 44–46.',
-    gallery: [['gear-finished','Manufactured helical gear prototype.'], ['gear-drawing','Gear drawing and setup reference.'], ['gear-turning','Turning the gear blank.'], ['gear-cutting','Helical gear cutting operation.']]
+    gallery: [['gear-prototype-new.png','Aluminium helical gear prototype after machining.'], ['gear-drawing-new.png','Engineering drawing used as a reference for machining and setup.'], ['gear-turning','Turning the gear blank on the lathe.'], ['gear-milling-new.png','Helical tooth milling with the cutter mounted on an arbor.']]
   },
   {
     id: 'bottle-mould', number: '07', title: 'Bottle mould profile analysis',
